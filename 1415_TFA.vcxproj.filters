@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\main\lib\flib\flib.cpp">
+      <Filter>Flib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\main\lib\flib\flib_vec2.cpp">
+      <Filter>Flib</Filter>
+    </ClCompile>
+    <ClCompile Include="door.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="element.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="square.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="circle.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Elements\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="room.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="hud.cpp">
+      <Filter>Elements\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="transition.cpp">
+      <Filter>Ergonomics</Filter>
+    </ClCompile>
+    <ClCompile Include="screen_overlay\screen-overlay.cpp">
+      <Filter>Ergonomics\Screen_Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="screen_overlay\screen-overlay-data.cpp">
+      <Filter>Ergonomics\Screen_Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>Ergonomics</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Ergonomics</Filter>
+    </ClCompile>
+    <ClCompile Include="controler.cpp">
+      <Filter>Controler</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>Ergonomics</Filter>
+    </ClCompile>
+    <ClCompile Include="parser\xml_attribute.cpp">
+      <Filter>parser</Filter>
+    </ClCompile>
+    <ClCompile Include="parser\xml_element.cpp">
+      <Filter>parser</Filter>
+    </ClCompile>
+    <ClCompile Include="parser\xml_root.cpp">
+      <Filter>parser</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="setting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\main\lib\lua\lua.cpp">
+      <Filter>Flib</Filter>
+    </ClCompile>
+    <ClCompile Include="texture_controler.cpp">
+      <Filter>Controler</Filter>
+    </ClCompile>
+    <ClCompile Include="wait.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="trophy.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="hunter.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="sentinel.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Flib">
+      <UniqueIdentifier>{6a34be7b-f4f1-4e9f-9da2-1448d8573f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Elements">
+      <UniqueIdentifier>{edda573c-2c66-409a-85af-3b98c417fadb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Elements\Player">
+      <UniqueIdentifier>{7be4d3e0-bcdc-4231-a017-87495d9d4adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{ce32c8f6-2eb7-4a7b-b9ae-0f72fc5b13e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enum">
+      <UniqueIdentifier>{37e83f39-1bba-43e5-a269-203daf3754eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ergonomics">
+      <UniqueIdentifier>{1cd4bd81-46e3-410e-9811-1333679869f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ergonomics\Screen_Overlay">
+      <UniqueIdentifier>{d924f0f1-7a1a-4a98-8a49-7af896903d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controler">
+      <UniqueIdentifier>{e88c8ebb-ba67-4b0a-bfc4-f9f10f82c4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parser">
+      <UniqueIdentifier>{edbd3352-d1a5-4352-a998-e95afe154c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setting">
+      <UniqueIdentifier>{15ee4bae-768d-4d68-b585-25effb245b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{88fd1ca7-5217-4a45-b932-e875817db55c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="door.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="element.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="square.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="circle.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Elements\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="enum_difficulty.h">
+      <Filter>Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="room.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="dynamic.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="hud.h">
+      <Filter>Elements\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="transition.h">
+      <Filter>Ergonomics</Filter>
+    </ClInclude>
+    <ClInclude Include="screen_overlay\screen-overlay.h">
+      <Filter>Ergonomics\Screen_Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="screen_overlay\screen-overlay-data.h">
+      <Filter>Ergonomics\Screen_Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="parser\sll_item.h">
+      <Filter>parser</Filter>
+    </ClInclude>
+    <ClInclude Include="parser\sll_root.h">
+      <Filter>parser</Filter>
+    </ClInclude>
+    <ClInclude Include="parser\xml_attribute.h">
+      <Filter>parser</Filter>
+    </ClInclude>
+    <ClInclude Include="parser\xml_element.h">
+      <Filter>parser</Filter>
+    </ClInclude>
+    <ClInclude Include="parser\xml_root.h">
+      <Filter>parser</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>Ergonomics</Filter>
+    </ClInclude>
+    <ClInclude Include="controler.h">
+      <Filter>Controler</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Ergonomics</Filter>
+    </ClInclude>
+    <ClInclude Include="setting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="enum_info.h">
+      <Filter>Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="trophy.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="texture_controler.h">
+      <Filter>Controler</Filter>
+    </ClInclude>
+    <ClInclude Include="tileinfo.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="wait.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="hunter.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="sentinel.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
